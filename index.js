@@ -22,13 +22,13 @@ function dec(a) {
   return a-=1;
 }
 
-function makeInt(a) {
+function makeInt(n) {
   {return parseInt(a.toString(),10);}
   {return parseInt('0*238',10)}
   {return parseInt('sldkjflksjf',10)}
 }
 
- function preserveDecimal(a) {
+ function preserveDecimal(n) {
    {return parseFloat('2.222')}
    {return parseFloat('sldkjflksjf')}
  }
