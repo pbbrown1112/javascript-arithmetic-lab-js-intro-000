@@ -23,9 +23,8 @@ function dec(a) {
 }
 
 function makeInt(n) {
-  {return parseInt(n.toString(),10);}
-  {return parseInt('0*238',10)}
-  {return parseInt('sldkjflksjf',10)}
+  {return parseInt(n,10);}
+
 }
 
  function preserveDecimal(n) {
