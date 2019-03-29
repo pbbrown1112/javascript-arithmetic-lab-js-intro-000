@@ -25,10 +25,10 @@ function dec(a) {
 function makeInt(a) {
   {return parseInt(a.toString(),10);}
   {return parseInt('0*238',10)}
-  {return parseInt('sldkjflksjf'.makeInt(),10)}
+  {return parseInt('sldkjflksjf',10)}
 }
 
  function preserveDecimal(a) {
    {return parseFloat('2.222')}
-   {return parseFloat('sldkjflksjf')}
+   {return parseFloat('sldkjflksjf'.preserveDecimal())}
  }
