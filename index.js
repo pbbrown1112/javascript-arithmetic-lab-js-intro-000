@@ -22,7 +22,7 @@ function dec(a) {
   return a-=1;
 }
 
-function makeInt(n) {
+function makeInt(a) {
   {return parseInt(a.toString(),10);}
   {return parseInt('0*238',10)}
   {return parseInt('sldkjflksjf',10)}
